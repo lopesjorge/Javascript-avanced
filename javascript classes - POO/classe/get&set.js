@@ -63,3 +63,5 @@ const p = new Pessoa('Jorge', 'Lopes')
 console.log('Before:',p.nomeCompleto);
 p.nomeCompleto = 'Lopes Jorge'
 console.log('After:',p.nomeCompleto);
+
+console.log('Pessoa:',p)
