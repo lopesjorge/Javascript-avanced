@@ -16,10 +16,10 @@ function rand(min, max){
 
 function espera (msg, tempo){
     return new Promise ((resolve, reject)=>{
-    if(typeof msg !== 'string') reject('Error! Character invalid!')
-        setTimeout(()=>{
-            resolve(msg)
-        }, tempo)
+        if(typeof msg !== 'string') reject('Error! Character invalid!')
+            setTimeout(()=>{
+                resolve(msg)
+            }, tempo)
     })
 }
 
