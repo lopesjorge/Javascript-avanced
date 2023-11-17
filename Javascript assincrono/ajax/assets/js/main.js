@@ -43,6 +43,7 @@ async function carregaPagina(el) {
     const response = await request(objConfig);
     carregaResultado(response);
   } catch(e) {
+    carregaResultado(e);
     console.log(e);
   }
 }
