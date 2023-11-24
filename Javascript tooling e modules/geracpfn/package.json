@@ -1,6 +1,7 @@
 {
   "name": "aula93",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack -w"
@@ -17,10 +18,8 @@
   },
   "dependencies": {
     "core-js": "^3.3.2",
-    "css-loader": "^1.0.0",
+    "css-loader": "^3.2.0",
     "regenerator-runtime": "^0.13.3",
     "style-loader": "^1.0.0"
-  },
-  "keywords": [],
-  "description": ""
+  }
 }

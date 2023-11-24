@@ -16,10 +16,10 @@ module.exports = {
         options: {
           presets: ['@babel/env']
         }
-      } 
-    },{
+      }
+    }, {
       test: /\.css$/,
-      use: ['style-loader','css-loader']
+      use: ['style-loader', 'css-loader']
     }]
   },
   devtool: 'source-map'
